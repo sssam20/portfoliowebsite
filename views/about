@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-color: rgb(70, 70, 215);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            
+
+        }
+
+        nav ul li {
+            text-decoration: none;
+            margin: 0 25px;
+            padding-left: 5px;
+            list-style: none;
+        }
+
+        .rightsection {
+            text-align: center;
+
+            font-size: 3rem;
+
+        }
+
+        .leftsection {
+            width: 80%;
+            margin-left: 100px;
+        }
+
+        .leftsection img {
+            width: 100%;
+            border-radius: 20px;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+        .first {
+            margin-top: 60px;
+            display: flex;
+
+            justify-content: space-around;
+
+        }
+
+        .first div {
+            width: 45%;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.2rem;
+        }
+        .about section{
+            width: 50%;
+            background-color: brown;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>portfolio website</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="about">
+           <section> <h1>About</h1>
+            <br>
+            <p>
+                A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
+            </p>
+        </section>
+        <section>
+
+        </section>
+        </div>
+
+    </header>
+</body>
+</html>

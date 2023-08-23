@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sameer portfolio website</title>
+    <style>
+        body {
+            background-color: rgb(70, 70, 215);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            
+
+        }
+
+        nav ul li {
+            text-decoration: none;
+            margin: 0 25px;
+            padding-left: 5px;
+            list-style: none;
+        }
+
+        .rightsection {
+            text-align: center;
+
+            font-size: 3rem;
+
+        }
+
+        .leftsection {
+            width: 80%;
+            margin-left: 100px;
+        }
+
+        .leftsection img {
+            width: 100%;
+            border-radius: 20px;
+            
+            
+        }
+
+        .first {
+            margin-top: 60px;
+            display: flex;
+
+            justify-content: space-around;
+
+        }
+
+        .first div {
+            width: 45%;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.2rem;
+        }
+
+        .second h1 {
+            max-width: 80vw;
+
+            margin: 40px 100px;
+
+        }
+
+        main hr {
+            border: 0;
+            background: darkblue;
+            height: 1.2px;
+            margin: 40px 80px;
+
+        }
+
+        .second {
+            height: 80vh;
+        }
+
+        second h1 span {
+            font-size: small;
+        }
+
+        .second .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 130px;
+            display: flex;
+
+
+        }
+
+        .second .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 73px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 0px;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            height: 233px;
+            width: 100%;
+            background-color: lavender;
+
+
+
+
+        }
+
+        .flex {
+            margin: 23px 123px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        .flex div {
+            width: 200px;
+        }
+
+        .text-center {
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .rightsection .btn {
+          padding: 12px;
+          background-color: rgb(18, 19, 22);
+          color: white;
+          border: 2px solid white;
+          font-size: 20px;
+          cursor: pointer;
+          
+          border-radius: 6px;
+          
+        }
+        .name{
+            text-decoration-style: solid;
+            color: aquamarine;
+            font-weight: bold;
+        }
+        .image-top{
+            width: 180px;
+            margin-top: 100px;
+            height: 180px;
+            
+        }
+        .intro{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 23px;
+            line-height: normal;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>portfolio website</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+    <!-- main section -->
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                <img src="images/coder_4x.jpg" alt="">
+            </div>
+            <div class="rightsection">Hi my name is <br> <br><span class="name">SAMEER SONWANE</span><br> <br> <span class="intro"> A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</span>
+                <br>
+                    <button class="btn">Download Resume</button> <br>
+                    <button class="btn">github</button>
+                </div>
+           
+
+        </section>
+        <hr>
+        <!-- second section -->
+        <section class="second">
+            <h1><span>what I have done so far </span><br> <br>
+                Past experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="images\vector-cartoon-illustration-of-school-classroom.jpg" alt="">
+                    <div class="vertical-title">COMPLETED SCHOOLING(10TH) <br>92.4% in 2018</div>
+                    <div class="vertical-disc"></div>
+                </div>
+                <div class="vertical"><img class="image-top" src="images\cartoon-college-campus-990x592.jpg" alt="">
+                    <div class="vertical-title">COMMPLETED COLLEGE(12th) <br> 84.3% in 2020</div>
+                    <div class="vertical-disc"></div>
+                </div>
+                <div class="vertical"><img class="image-top" src="images\OIP.jpg" alt="">
+                    <div class="vertical-title">CURRENTLY DOING BTECH IN NIT RAIPUR</div>
+                    <div class="vertical-disc"></div>
+                </div>
+                <div class="vertical"><img class="image-top" src="images\th.jpg" alt="">
+                    <div class="vertical-title">RESEARCH INTERNSHIP AT NIT RAIPUR</div>
+                    <div class="vertical-disc"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>sameer develpers portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        contact
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        contact
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            www.sameersonwaneport.com|ALL RIGHT RESERVED
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web develper', 'web designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
